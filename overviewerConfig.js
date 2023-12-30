@@ -27,7 +27,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1703870388",
+        "cacheTag": "1703955091",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,15 +41,15 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "\u4e2d\u56fd2010\u5e74\u4e0a\u6d77\u4e16\u535a\u4f1a\u56ed\u533a\u5730\u56fe",
+            "name": "\u5317\u65b9\u5bf9\u5e94\u53f3\u4e0a\u89d2\u65b9\u5411",
             "zoomLevels": 7,
             "defaultZoom": 1,
             "maxZoom": 7,
-            "path": "lighting",
+            "path": "upper_right",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "expo - overworld",
-            "last_rendertime": 1703868746,
+            "last_rendertime": 1703950843,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -67,6 +67,34 @@ var overviewerConfig = {
                 0
             ],
             "north_direction": 1
+        },
+        {
+            "name": "\u5317\u65b9\u5bf9\u5e94\u5de6\u4e0b\u89d2\u65b9\u5411",
+            "zoomLevels": 7,
+            "defaultZoom": 1,
+            "maxZoom": 7,
+            "path": "lower_right",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "expo - overworld",
+            "last_rendertime": 1703950843,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                -22,
+                0
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 0,
+            "spawn": [
+                0,
+                -22,
+                0
+            ],
+            "north_direction": 3
         }
     ]
 };
